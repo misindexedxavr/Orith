@@ -1,0 +1,221 @@
+{
+ "argv": [
+  "facts",
+  "--country",
+  "TN"
+ ],
+ "exit": 0,
+ "output": {
+  "iso2": "TN",
+  "country": "Tunisia",
+  "facts": {
+   "area_km2": [
+    {
+     "value": "163610",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "calling_code": [
+    {
+     "value": "216",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "capital": [
+    {
+     "value": "Tunis",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "continent": [
+    {
+     "value": "AF",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "currency_code": [
+    {
+     "value": "TND",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "currency_name": [
+    {
+     "value": "Dinar",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "driving_side": [
+    {
+     "value": "right",
+     "status": "normal",
+     "source": "Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), revision 1385286602",
+     "source_url": "https://en.wikipedia.org/w/index.php?title=Left-+and+right-hand+traffic&oldid=1385286602",
+     "retrieved": "2026-11-15",
+     "note": "source cell: RHT; notes: RHT was enforced in the French protectorate of Tunisia from 1881 to 1956."
+    }
+   ],
+   "iso3": [
+    {
+     "value": "TUN",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "language": [
+    {
+     "value": "ar",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15",
+     "note": "listed as ar-TN"
+    },
+    {
+     "value": "fr",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15",
+     "note": "listed as fr"
+    }
+   ],
+   "mains_frequency_hz": [
+    {
+     "value": "50",
+     "status": "normal",
+     "source": "Wikipedia: Mains electricity by country (CC BY-SA 4.0), revision 1380969207",
+     "source_url": "https://en.wikipedia.org/w/index.php?title=Mains+electricity+by+country&oldid=1380969207",
+     "retrieved": "2026-11-15",
+     "note": "source cell: 50 Hz"
+    }
+   ],
+   "mains_voltage": [
+    {
+     "value": "230/400 V",
+     "status": "normal",
+     "source": "Wikipedia: Mains electricity by country (CC BY-SA 4.0), revision 1380969207",
+     "source_url": "https://en.wikipedia.org/w/index.php?title=Mains+electricity+by+country&oldid=1380969207",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "ne_continent": [
+    {
+     "value": "Africa",
+     "status": "normal",
+     "source": "Natural Earth 1:50m admin 0 countries, 5.2.0-pre (public domain)",
+     "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "ne_subregion": [
+    {
+     "value": "Northern Africa",
+     "status": "normal",
+     "source": "Natural Earth 1:50m admin 0 countries, 5.2.0-pre (public domain)",
+     "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "neighbour": [
+    {
+     "value": "DZ",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    },
+    {
+     "value": "LY",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "plug_type": [
+    {
+     "value": "C",
+     "status": "normal",
+     "source": "Wikipedia: Mains electricity by country (CC BY-SA 4.0), revision 1380969207",
+     "source_url": "https://en.wikipedia.org/w/index.php?title=Mains+electricity+by+country&oldid=1380969207",
+     "retrieved": "2026-11-15",
+     "note": "source cell: C, E"
+    },
+    {
+     "value": "E",
+     "status": "normal",
+     "source": "Wikipedia: Mains electricity by country (CC BY-SA 4.0), revision 1380969207",
+     "source_url": "https://en.wikipedia.org/w/index.php?title=Mains+electricity+by+country&oldid=1380969207",
+     "retrieved": "2026-11-15",
+     "note": "source cell: C, E"
+    }
+   ],
+   "population": [
+    {
+     "value": "12348573",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "postal_code_format": [
+    {
+     "value": "####",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ],
+   "script": [
+    {
+     "value": "Arab",
+     "status": "normal",
+     "source": "Unicode CLDR 49.0.0 territoryInfo + languageData (Unicode License V3)",
+     "source_url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/cldr-json/cldr-core/supplemental/territoryInfo.json",
+     "retrieved": "2026-11-16",
+     "note": "languages: aeb 90%, ar 90% official; threshold: a language with CLDR status official or de_facto_official, or spoken by >= 5 % of the population; main script by likelySubtags: und-TN -> ar-Arab-TN"
+    },
+    {
+     "value": "Latn",
+     "status": "normal",
+     "source": "Unicode CLDR 49.0.0 territoryInfo + languageData (Unicode License V3)",
+     "source_url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/cldr-json/cldr-core/supplemental/territoryInfo.json",
+     "retrieved": "2026-11-16",
+     "note": "languages: fr 53% official; threshold: a language with CLDR status official or de_facto_official, or spoken by >= 5 % of the population"
+    }
+   ],
+   "tld": [
+    {
+     "value": ".tn",
+     "status": "normal",
+     "source": "GeoNames countryInfo (CC BY 4.0)",
+     "source_url": "https://download.geonames.org/export/dump/countryInfo.txt",
+     "retrieved": "2026-11-15"
+    }
+   ]
+  }
+ }
+}

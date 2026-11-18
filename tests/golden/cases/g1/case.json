@@ -1,0 +1,71 @@
+{
+ "version": 1,
+ "image": "demo.jpg",
+ "image_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+ "created": "2026-01-01T00:00:00",
+ "evidence": [
+  {
+   "id": "e1",
+   "source": "offline",
+   "lat": 33.9239001,
+   "lon": 8.1370639,
+   "name": "Tozeur",
+   "precision_m": 3000.0,
+   "ref": "TN-72",
+   "query": ""
+  }
+ ],
+ "clues": [
+  {
+   "id": "c1",
+   "text": "Arabic and French sign naming Tozeur",
+   "kind": "SOFT",
+   "uniqueness": 3,
+   "permanence": 4,
+   "reliability": 4,
+   "group": "signs",
+   "geometry": false,
+   "evidence": "e1"
+  }
+ ],
+ "hypotheses": [
+  {
+   "id": "h1",
+   "label": "Tozeur",
+   "lat": 33.9239001,
+   "lon": 8.1370639,
+   "source": "evidence",
+   "evidence": "e1"
+  },
+  {
+   "id": "h2",
+   "label": "Nefta",
+   "lat": 33.873,
+   "lon": 7.877,
+   "source": "memory",
+   "evidence": null
+  },
+  {
+   "id": "h3",
+   "label": "Sfax",
+   "lat": 34.74,
+   "lon": 10.76,
+   "source": "memory",
+   "evidence": null
+  }
+ ],
+ "links": [
+  {
+   "clue": "c1",
+   "hypothesis": "h1",
+   "relation": "supports",
+   "note": ""
+  },
+  {
+   "clue": "c1",
+   "hypothesis": "h3",
+   "relation": "contradicts",
+   "note": ""
+  }
+ ]
+}

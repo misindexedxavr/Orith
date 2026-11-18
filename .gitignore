@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv*/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# your own work: cases, cache, settings (the golden test fixture is kept)
+cases/
+!tests/golden/cases/
+cache/
+*_ela.png
+*.geojson
+!orith/data/**/*.geojson
+config.json
+*.local.json
+
+.built-by-build_public
+
+# raw downloads made by tools/ (rebuild the data from these; never committed)
+tools/raw/

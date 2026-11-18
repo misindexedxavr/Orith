@@ -1,0 +1,22 @@
+{
+ "argv": [
+  "sun",
+  "position",
+  "33.9197",
+  "8.1335",
+  "--time",
+  "2025-06-21T16:30:00+01:00"
+ ],
+ "exit": 0,
+ "output": {
+  "lat": 33.9197,
+  "lon": 8.1335,
+  "time_utc": "2025-06-21T15:30:00+00:00",
+  "sun_azimuth": 275.4,
+  "sun_elevation_apparent": 36.95,
+  "shadow_bearing": 95.4,
+  "shadow_length_per_unit_height": 1.329,
+  "declination": 23.438,
+  "equation_of_time_min": -1.91
+ }
+}

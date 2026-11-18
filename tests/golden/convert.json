@@ -1,0 +1,42 @@
+{
+ "argv": [
+  "convert",
+  "36°52'12\"N 10°20'29\"E"
+ ],
+ "exit": 0,
+ "output": {
+  "input": "36°52'12\"N 10°20'29\"E",
+  "read_as": "decimal or DMS",
+  "lat": 36.87,
+  "lon": 10.3413889,
+  "formats": {
+   "decimal": "36.870000, 10.341389",
+   "dms": "36°52'12.00\"N 10°20'29.00\"E",
+   "ddm": "36°52.200'N 10°20.483'E",
+   "geohash": "snx3erfr7",
+   "utm": "32S 619557.5E 4081291.0N",
+   "mgrs": "32SPF1955781291",
+   "pluscode": "8F8GV8CR+2H"
+  },
+  "packs": [
+   {
+    "pack": "TN",
+    "country": "Tunisia",
+    "admin": [
+     {
+      "level": 1,
+      "label": "governorate",
+      "id": "TN-11",
+      "name": "Tunis"
+     },
+     {
+      "level": 2,
+      "label": "delegation",
+      "id": "delegation-1151",
+      "name": "Carthage"
+     }
+    ]
+   }
+  ]
+ }
+}

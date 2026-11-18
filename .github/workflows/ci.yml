@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: ruff
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: python -m pip install "ruff>=0.14,<1"
+      - run: ruff check .
+
+  test:
+    name: tests (${{ matrix.os }}, Python ${{ matrix.python }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        # 3.11 is the lowest version the tested Pillow (13.x) supports
+        python: ["3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install with the dev extra
+        run: python -m pip install ".[dev]"
+      - name: Tests
+        run: python -m pytest
+      - name: doctor
+        run: orith doctor
+      - name: End to end on the samples
+        shell: bash
+        run: |
+          orith tests/samples/gps.jpg --no-color
+          orith tests/samples/stripped.jpg --no-color
+          orith tests/samples/not_an_image.jpg && exit 1 || test $? -eq 2
+
+  pipx:
+    name: pipx install (ubuntu)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Install with pipx
+        run: |
+          python -m pip install pipx
+          python -m pipx install .
+      - name: Run the installed command
+        run: |
+          orith --help
+          orith doctor

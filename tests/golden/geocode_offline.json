@@ -1,0 +1,59 @@
+{
+ "argv": [
+  "geocode",
+  "Tozeur",
+  "--offline"
+ ],
+ "exit": 0,
+ "output": {
+  "query": "Tozeur",
+  "note": "offline gazetteer: 3 match(es)",
+  "results": [
+   {
+    "source": "offline",
+    "pack": "TN",
+    "match": "exact",
+    "match_score": 1.0,
+    "name": "Tozeur",
+    "level": "populated place",
+    "ref": "city-n298018887",
+    "lat": 33.9239001,
+    "lon": 8.1370639,
+    "precision_m": 3000.0,
+    "admin1": "Tozeur",
+    "country": "Tunisia"
+   },
+   {
+    "source": "offline",
+    "pack": "TN",
+    "match": "exact",
+    "match_score": 1.0,
+    "name": "Tozeur",
+    "level": "delegation",
+    "ref": "delegation-6251",
+    "lat": 33.79237,
+    "lon": 8.17247,
+    "precision_m": 16152,
+    "admin1": "Tozeur",
+    "country": "Tunisia"
+   },
+   {
+    "source": "offline",
+    "pack": "TN",
+    "match": "exact",
+    "match_score": 1.0,
+    "name": "Tozeur",
+    "level": "governorate",
+    "ref": "TN-72",
+    "lat": 33.90235,
+    "lon": 7.9129,
+    "precision_m": 43970,
+    "admin1": "Tozeur",
+    "country": "Tunisia"
+   }
+  ],
+  "evidence": "not recorded: add --case ID to record these results as evidence ids (eN), which hyp add --evidence and clue add --evidence accept",
+  "fields": "match_score (offline gazetteer): 1.0 exact name, 0.9 all query words, else spelling similarity. importance (Nominatim): how prominent the place is, NOT how well it matches the query; small places are near 0.",
+  "reminder": "precision_m is the uncertainty radius. An area's label point can rank a region; it cannot count as a clue agreeing at one point."
+ }
+}

@@ -1,0 +1,1498 @@
+{
+ "argv": [
+  "facts",
+  "--drives",
+  "right",
+  "--calling-code",
+  "216",
+  "--script",
+  "Arab"
+ ],
+ "exit": 0,
+ "output": {
+  "clues": [
+   "drives=right",
+   "calling_code=216",
+   "script=Arab"
+  ],
+  "point_country": null,
+  "consistent": [
+   {
+    "iso2": "TN",
+    "country": "Tunisia",
+    "matches": 3,
+    "uncertain": 0,
+    "unknown": 0,
+    "clues": [
+     {
+      "clue": "drives=right",
+      "result": "match",
+      "facts": [
+       {
+        "value": "right",
+        "status": "normal",
+        "source": "Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), revision 1385286602",
+        "retrieved": "2026-11-15"
+       }
+      ]
+     },
+     {
+      "clue": "calling_code=216",
+      "result": "match",
+      "facts": [
+       {
+        "value": "216",
+        "status": "normal",
+        "source": "GeoNames countryInfo (CC BY 4.0)",
+        "retrieved": "2026-11-15"
+       }
+      ]
+     },
+     {
+      "clue": "script=Arab",
+      "result": "match",
+      "facts": [
+       {
+        "value": "Arab",
+        "status": "normal",
+        "source": "Unicode CLDR 49.0.0 territoryInfo + languageData (Unicode License V3)",
+        "retrieved": "2026-11-16"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "iso2": "XK",
+    "country": "Kosovo",
+    "matches": 1,
+    "uncertain": 0,
+    "unknown": 2,
+    "clues": [
+     {
+      "clue": "drives=right",
+      "result": "match",
+      "facts": [
+       {
+        "value": "right",
+        "status": "normal",
+        "source": "Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), revision 1385286602",
+        "retrieved": "2026-11-15"
+       }
+      ]
+     },
+     {
+      "clue": "calling_code=216",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "script=Arab",
+      "result": "unknown",
+      "facts": [
+       {
+        "value": "Cyrl",
+        "status": "normal",
+        "source": "Unicode CLDR 49.0.0 territoryInfo + languageData (Unicode License V3)",
+        "retrieved": "2026-11-16",
+        "note": "languages: sr 5% official; threshold: a language with CLDR status official or de_facto_official, or spoken by >= 5 % of "
+       },
+       {
+        "value": "Latn",
+        "status": "normal",
+        "source": "Unicode CLDR 49.0.0 territoryInfo + languageData (Unicode License V3)",
+        "retrieved": "2026-11-16",
+        "note": "languages: aln 74%, sq 92% official, sr 5% official, sr_Latn 5% official; threshold: a language with CLDR status officia"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "iso2": "AQ",
+    "country": "Antarctica",
+    "matches": 0,
+    "uncertain": 0,
+    "unknown": 3,
+    "clues": [
+     {
+      "clue": "drives=right",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "calling_code=216",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "script=Arab",
+      "result": "unknown",
+      "facts": []
+     }
+    ]
+   },
+   {
+    "iso2": "BV",
+    "country": "Bouvet Island",
+    "matches": 0,
+    "uncertain": 0,
+    "unknown": 3,
+    "clues": [
+     {
+      "clue": "drives=right",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "calling_code=216",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "script=Arab",
+      "result": "unknown",
+      "facts": [
+       {
+        "value": "Latn",
+        "status": "normal",
+        "source": "Unicode CLDR 49.0.0 territoryInfo + languageData (Unicode License V3)",
+        "retrieved": "2026-11-16",
+        "note": "languages: no 100%; threshold: a language with CLDR status official or de_facto_official, or spoken by >= 5 % of the pop"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "iso2": "HM",
+    "country": "Heard Island and McDonald Islands",
+    "matches": 0,
+    "uncertain": 0,
+    "unknown": 3,
+    "clues": [
+     {
+      "clue": "drives=right",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "calling_code=216",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "script=Arab",
+      "result": "unknown",
+      "facts": []
+     }
+    ]
+   },
+   {
+    "iso2": "TF",
+    "country": "French Southern Territories",
+    "matches": 0,
+    "uncertain": 0,
+    "unknown": 3,
+    "clues": [
+     {
+      "clue": "drives=right",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "calling_code=216",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "script=Arab",
+      "result": "unknown",
+      "facts": [
+       {
+        "value": "Latn",
+        "status": "normal",
+        "source": "Unicode CLDR 49.0.0 territoryInfo + languageData (Unicode License V3)",
+        "retrieved": "2026-11-16",
+        "note": "languages: fr 100%; threshold: a language with CLDR status official or de_facto_official, or spoken by >= 5 % of the pop"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "iso2": "GS",
+    "country": "South Georgia and the South Sandwich Islands",
+    "matches": 0,
+    "uncertain": 1,
+    "unknown": 2,
+    "clues": [
+     {
+      "clue": "drives=right",
+      "result": "uncertain",
+      "facts": [
+       {
+        "value": "left",
+        "status": "exception",
+        "source": "Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), revision 1385286602",
+        "retrieved": "2026-11-15",
+        "note": "source cell: LHT; notes: Briefly switched to RHT during the Falklands War."
+       }
+      ]
+     },
+     {
+      "clue": "calling_code=216",
+      "result": "unknown",
+      "facts": []
+     },
+     {
+      "clue": "script=Arab",
+      "result": "unknown",
+      "facts": [
+       {
+        "value": "Latn",
+        "status": "normal",
+        "source": "Unicode CLDR 49.0.0 territoryInfo + languageData (Unicode License V3)",
+        "retrieved": "2026-11-16",
+        "note": "languages: en 100% official; threshold: a language with CLDR status official or de_facto_official, or spoken by >= 5 % o"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "excluded": [
+   {
+    "iso2": "AD",
+    "country": "Andorra",
+    "excluded_by": "calling_code=216: 376 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AE",
+    "country": "United Arab Emirates",
+    "excluded_by": "calling_code=216: 971 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AF",
+    "country": "Afghanistan",
+    "excluded_by": "calling_code=216: 93 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AG",
+    "country": "Antigua and Barbuda",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-268 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AI",
+    "country": "Anguilla",
+    "excluded_by": "calling_code=216: +1-264 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AL",
+    "country": "Albania",
+    "excluded_by": "calling_code=216: 355 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AM",
+    "country": "Armenia",
+    "excluded_by": "calling_code=216: 374 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AN",
+    "country": "Netherlands Antilles",
+    "excluded_by": "calling_code=216: 599 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AO",
+    "country": "Angola",
+    "excluded_by": "calling_code=216: 244 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AR",
+    "country": "Argentina",
+    "excluded_by": "calling_code=216: 54 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AS",
+    "country": "American Samoa",
+    "excluded_by": "calling_code=216: +1-684 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AT",
+    "country": "Austria",
+    "excluded_by": "calling_code=216: 43 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AU",
+    "country": "Australia",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 61 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AW",
+    "country": "Aruba",
+    "excluded_by": "calling_code=216: 297 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AX",
+    "country": "Aland Islands",
+    "excluded_by": "calling_code=216: +358-18 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "AZ",
+    "country": "Azerbaijan",
+    "excluded_by": "calling_code=216: 994 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BA",
+    "country": "Bosnia and Herzegovina",
+    "excluded_by": "calling_code=216: 387 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BB",
+    "country": "Barbados",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-246 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BD",
+    "country": "Bangladesh",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 880 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BE",
+    "country": "Belgium",
+    "excluded_by": "calling_code=216: 32 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BF",
+    "country": "Burkina Faso",
+    "excluded_by": "calling_code=216: 226 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BG",
+    "country": "Bulgaria",
+    "excluded_by": "calling_code=216: 359 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BH",
+    "country": "Bahrain",
+    "excluded_by": "calling_code=216: 973 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BI",
+    "country": "Burundi",
+    "excluded_by": "calling_code=216: 257 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BJ",
+    "country": "Benin",
+    "excluded_by": "calling_code=216: 229 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BL",
+    "country": "Saint Barthelemy",
+    "excluded_by": "calling_code=216: 590 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BM",
+    "country": "Bermuda",
+    "excluded_by": "calling_code=216: +1-441 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BN",
+    "country": "Brunei",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 673 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BO",
+    "country": "Bolivia",
+    "excluded_by": "calling_code=216: 591 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BQ",
+    "country": "Bonaire, Saint Eustatius and Saba ",
+    "excluded_by": "calling_code=216: 599 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BR",
+    "country": "Brazil",
+    "excluded_by": "calling_code=216: 55 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BS",
+    "country": "Bahamas",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-242 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BT",
+    "country": "Bhutan",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 975 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BW",
+    "country": "Botswana",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 267 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BY",
+    "country": "Belarus",
+    "excluded_by": "calling_code=216: 375 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "BZ",
+    "country": "Belize",
+    "excluded_by": "calling_code=216: 501 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CA",
+    "country": "Canada",
+    "excluded_by": "calling_code=216: 1 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CC",
+    "country": "Cocos Islands",
+    "excluded_by": "calling_code=216: 61 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CD",
+    "country": "Democratic Republic of the Congo",
+    "excluded_by": "calling_code=216: 243 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CF",
+    "country": "Central African Republic",
+    "excluded_by": "calling_code=216: 236 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CG",
+    "country": "Republic of the Congo",
+    "excluded_by": "calling_code=216: 242 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CH",
+    "country": "Switzerland",
+    "excluded_by": "calling_code=216: 41 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CI",
+    "country": "Ivory Coast",
+    "excluded_by": "calling_code=216: 225 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CK",
+    "country": "Cook Islands",
+    "excluded_by": "calling_code=216: 682 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CL",
+    "country": "Chile",
+    "excluded_by": "calling_code=216: 56 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CM",
+    "country": "Cameroon",
+    "excluded_by": "calling_code=216: 237 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CN",
+    "country": "China",
+    "excluded_by": "calling_code=216: 86 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CO",
+    "country": "Colombia",
+    "excluded_by": "calling_code=216: 57 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CR",
+    "country": "Costa Rica",
+    "excluded_by": "calling_code=216: 506 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CS",
+    "country": "Serbia and Montenegro",
+    "excluded_by": "calling_code=216: 381 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CU",
+    "country": "Cuba",
+    "excluded_by": "calling_code=216: 53 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CV",
+    "country": "Cabo Verde",
+    "excluded_by": "calling_code=216: 238 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CW",
+    "country": "Curacao",
+    "excluded_by": "calling_code=216: 599 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CX",
+    "country": "Christmas Island",
+    "excluded_by": "calling_code=216: 61 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CY",
+    "country": "Cyprus",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 357 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "CZ",
+    "country": "Czechia",
+    "excluded_by": "calling_code=216: 420 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "DE",
+    "country": "Germany",
+    "excluded_by": "calling_code=216: 49 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "DJ",
+    "country": "Djibouti",
+    "excluded_by": "calling_code=216: 253 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "DK",
+    "country": "Denmark",
+    "excluded_by": "calling_code=216: 45 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "DM",
+    "country": "Dominica",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-767 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "DO",
+    "country": "Dominican Republic",
+    "excluded_by": "calling_code=216: +1-809 and 1-829 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "DZ",
+    "country": "Algeria",
+    "excluded_by": "calling_code=216: 213 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "EC",
+    "country": "Ecuador",
+    "excluded_by": "calling_code=216: 593 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "EE",
+    "country": "Estonia",
+    "excluded_by": "calling_code=216: 372 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "EG",
+    "country": "Egypt",
+    "excluded_by": "calling_code=216: 20 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "EH",
+    "country": "Western Sahara",
+    "excluded_by": "calling_code=216: 212 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ER",
+    "country": "Eritrea",
+    "excluded_by": "calling_code=216: 291 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ES",
+    "country": "Spain",
+    "excluded_by": "calling_code=216: 34 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ET",
+    "country": "Ethiopia",
+    "excluded_by": "calling_code=216: 251 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "FI",
+    "country": "Finland",
+    "excluded_by": "calling_code=216: 358 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "FJ",
+    "country": "Fiji",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 679 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "FK",
+    "country": "Falkland Islands",
+    "excluded_by": "calling_code=216: 500 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "FM",
+    "country": "Micronesia",
+    "excluded_by": "calling_code=216: 691 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "FO",
+    "country": "Faroe Islands",
+    "excluded_by": "calling_code=216: 298 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "FR",
+    "country": "France",
+    "excluded_by": "calling_code=216: 33 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GA",
+    "country": "Gabon",
+    "excluded_by": "calling_code=216: 241 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GB",
+    "country": "United Kingdom",
+    "excluded_by": "calling_code=216: 44 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GD",
+    "country": "Grenada",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-473 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GE",
+    "country": "Georgia",
+    "excluded_by": "calling_code=216: 995 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GF",
+    "country": "French Guiana",
+    "excluded_by": "calling_code=216: 594 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GG",
+    "country": "Guernsey",
+    "excluded_by": "calling_code=216: +44-1481 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GH",
+    "country": "Ghana",
+    "excluded_by": "calling_code=216: 233 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GI",
+    "country": "Gibraltar",
+    "excluded_by": "calling_code=216: 350 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GL",
+    "country": "Greenland",
+    "excluded_by": "calling_code=216: 299 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GM",
+    "country": "Gambia",
+    "excluded_by": "calling_code=216: 220 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GN",
+    "country": "Guinea",
+    "excluded_by": "calling_code=216: 224 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GP",
+    "country": "Guadeloupe",
+    "excluded_by": "calling_code=216: 590 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GQ",
+    "country": "Equatorial Guinea",
+    "excluded_by": "calling_code=216: 240 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GR",
+    "country": "Greece",
+    "excluded_by": "calling_code=216: 30 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GT",
+    "country": "Guatemala",
+    "excluded_by": "calling_code=216: 502 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GU",
+    "country": "Guam",
+    "excluded_by": "calling_code=216: +1-671 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GW",
+    "country": "Guinea-Bissau",
+    "excluded_by": "calling_code=216: 245 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "GY",
+    "country": "Guyana",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 592 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "HK",
+    "country": "Hong Kong",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 852 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "HN",
+    "country": "Honduras",
+    "excluded_by": "calling_code=216: 504 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "HR",
+    "country": "Croatia",
+    "excluded_by": "calling_code=216: 385 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "HT",
+    "country": "Haiti",
+    "excluded_by": "calling_code=216: 509 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "HU",
+    "country": "Hungary",
+    "excluded_by": "calling_code=216: 36 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ID",
+    "country": "Indonesia",
+    "excluded_by": "calling_code=216: 62 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "IE",
+    "country": "Ireland",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 353 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "IL",
+    "country": "Israel",
+    "excluded_by": "calling_code=216: 972 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "IM",
+    "country": "Isle of Man",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +44-1624 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "IN",
+    "country": "India",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 91 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "IO",
+    "country": "British Indian Ocean Territory",
+    "excluded_by": "calling_code=216: 246 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "IQ",
+    "country": "Iraq",
+    "excluded_by": "calling_code=216: 964 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "IR",
+    "country": "Iran",
+    "excluded_by": "calling_code=216: 98 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "IS",
+    "country": "Iceland",
+    "excluded_by": "calling_code=216: 354 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "IT",
+    "country": "Italy",
+    "excluded_by": "calling_code=216: 39 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "JE",
+    "country": "Jersey",
+    "excluded_by": "calling_code=216: +44-1534 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "JM",
+    "country": "Jamaica",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-876 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "JO",
+    "country": "Jordan",
+    "excluded_by": "calling_code=216: 962 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "JP",
+    "country": "Japan",
+    "excluded_by": "calling_code=216: 81 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KE",
+    "country": "Kenya",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 254 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KG",
+    "country": "Kyrgyzstan",
+    "excluded_by": "calling_code=216: 996 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KH",
+    "country": "Cambodia",
+    "excluded_by": "calling_code=216: 855 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KI",
+    "country": "Kiribati",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 686 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KM",
+    "country": "Comoros",
+    "excluded_by": "calling_code=216: 269 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KN",
+    "country": "Saint Kitts and Nevis",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-869 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KP",
+    "country": "North Korea",
+    "excluded_by": "calling_code=216: 850 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KR",
+    "country": "South Korea",
+    "excluded_by": "calling_code=216: 82 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KW",
+    "country": "Kuwait",
+    "excluded_by": "calling_code=216: 965 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KY",
+    "country": "Cayman Islands",
+    "excluded_by": "calling_code=216: +1-345 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "KZ",
+    "country": "Kazakhstan",
+    "excluded_by": "calling_code=216: 7 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LA",
+    "country": "Laos",
+    "excluded_by": "calling_code=216: 856 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LB",
+    "country": "Lebanon",
+    "excluded_by": "calling_code=216: 961 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LC",
+    "country": "Saint Lucia",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-758 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LI",
+    "country": "Liechtenstein",
+    "excluded_by": "calling_code=216: 423 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LK",
+    "country": "Sri Lanka",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 94 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LR",
+    "country": "Liberia",
+    "excluded_by": "calling_code=216: 231 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LS",
+    "country": "Lesotho",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 266 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LT",
+    "country": "Lithuania",
+    "excluded_by": "calling_code=216: 370 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LU",
+    "country": "Luxembourg",
+    "excluded_by": "calling_code=216: 352 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LV",
+    "country": "Latvia",
+    "excluded_by": "calling_code=216: 371 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "LY",
+    "country": "Libya",
+    "excluded_by": "calling_code=216: 218 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MA",
+    "country": "Morocco",
+    "excluded_by": "calling_code=216: 212 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MC",
+    "country": "Monaco",
+    "excluded_by": "calling_code=216: 377 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MD",
+    "country": "Moldova",
+    "excluded_by": "calling_code=216: 373 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ME",
+    "country": "Montenegro",
+    "excluded_by": "calling_code=216: 382 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MF",
+    "country": "Saint Martin",
+    "excluded_by": "calling_code=216: 590 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MG",
+    "country": "Madagascar",
+    "excluded_by": "calling_code=216: 261 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MH",
+    "country": "Marshall Islands",
+    "excluded_by": "calling_code=216: 692 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MK",
+    "country": "North Macedonia",
+    "excluded_by": "calling_code=216: 389 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ML",
+    "country": "Mali",
+    "excluded_by": "calling_code=216: 223 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MM",
+    "country": "Myanmar",
+    "excluded_by": "calling_code=216: 95 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MN",
+    "country": "Mongolia",
+    "excluded_by": "calling_code=216: 976 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MO",
+    "country": "Macao",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 853 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MP",
+    "country": "Northern Mariana Islands",
+    "excluded_by": "calling_code=216: +1-670 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MQ",
+    "country": "Martinique",
+    "excluded_by": "calling_code=216: 596 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MR",
+    "country": "Mauritania",
+    "excluded_by": "calling_code=216: 222 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MS",
+    "country": "Montserrat",
+    "excluded_by": "calling_code=216: +1-664 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MT",
+    "country": "Malta",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 356 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MU",
+    "country": "Mauritius",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 230 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MV",
+    "country": "Maldives",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 960 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MW",
+    "country": "Malawi",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 265 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MX",
+    "country": "Mexico",
+    "excluded_by": "calling_code=216: 52 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MY",
+    "country": "Malaysia",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 60 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "MZ",
+    "country": "Mozambique",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 258 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NA",
+    "country": "Namibia",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 264 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NC",
+    "country": "New Caledonia",
+    "excluded_by": "calling_code=216: 687 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NE",
+    "country": "Niger",
+    "excluded_by": "calling_code=216: 227 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NF",
+    "country": "Norfolk Island",
+    "excluded_by": "calling_code=216: 672 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NG",
+    "country": "Nigeria",
+    "excluded_by": "calling_code=216: 234 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NI",
+    "country": "Nicaragua",
+    "excluded_by": "calling_code=216: 505 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NL",
+    "country": "The Netherlands",
+    "excluded_by": "calling_code=216: 31 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NO",
+    "country": "Norway",
+    "excluded_by": "calling_code=216: 47 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NP",
+    "country": "Nepal",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 977 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NR",
+    "country": "Nauru",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 674 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NU",
+    "country": "Niue",
+    "excluded_by": "calling_code=216: 683 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "NZ",
+    "country": "New Zealand",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 64 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "OM",
+    "country": "Oman",
+    "excluded_by": "calling_code=216: 968 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PA",
+    "country": "Panama",
+    "excluded_by": "calling_code=216: 507 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PE",
+    "country": "Peru",
+    "excluded_by": "calling_code=216: 51 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PF",
+    "country": "French Polynesia",
+    "excluded_by": "calling_code=216: 689 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PG",
+    "country": "Papua New Guinea",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 675 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PH",
+    "country": "Philippines",
+    "excluded_by": "calling_code=216: 63 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PK",
+    "country": "Pakistan",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 92 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PL",
+    "country": "Poland",
+    "excluded_by": "calling_code=216: 48 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PM",
+    "country": "Saint Pierre and Miquelon",
+    "excluded_by": "calling_code=216: 508 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PN",
+    "country": "Pitcairn",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 870 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PR",
+    "country": "Puerto Rico",
+    "excluded_by": "calling_code=216: +1-787 and 1-939 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PS",
+    "country": "Palestinian Territory",
+    "excluded_by": "calling_code=216: 970 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PT",
+    "country": "Portugal",
+    "excluded_by": "calling_code=216: 351 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PW",
+    "country": "Palau",
+    "excluded_by": "calling_code=216: 680 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "PY",
+    "country": "Paraguay",
+    "excluded_by": "calling_code=216: 595 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "QA",
+    "country": "Qatar",
+    "excluded_by": "calling_code=216: 974 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "RE",
+    "country": "Reunion",
+    "excluded_by": "calling_code=216: 262 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "RO",
+    "country": "Romania",
+    "excluded_by": "calling_code=216: 40 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "RS",
+    "country": "Serbia",
+    "excluded_by": "calling_code=216: 381 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "RU",
+    "country": "Russia",
+    "excluded_by": "calling_code=216: 7 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "RW",
+    "country": "Rwanda",
+    "excluded_by": "calling_code=216: 250 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SA",
+    "country": "Saudi Arabia",
+    "excluded_by": "calling_code=216: 966 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SB",
+    "country": "Solomon Islands",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 677 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SC",
+    "country": "Seychelles",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 248 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SD",
+    "country": "Sudan",
+    "excluded_by": "calling_code=216: 249 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SE",
+    "country": "Sweden",
+    "excluded_by": "calling_code=216: 46 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SG",
+    "country": "Singapore",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 65 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SH",
+    "country": "Saint Helena",
+    "excluded_by": "calling_code=216: 290 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SI",
+    "country": "Slovenia",
+    "excluded_by": "calling_code=216: 386 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SJ",
+    "country": "Svalbard and Jan Mayen",
+    "excluded_by": "calling_code=216: 47 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SK",
+    "country": "Slovakia",
+    "excluded_by": "calling_code=216: 421 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SL",
+    "country": "Sierra Leone",
+    "excluded_by": "calling_code=216: 232 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SM",
+    "country": "San Marino",
+    "excluded_by": "calling_code=216: 378 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SN",
+    "country": "Senegal",
+    "excluded_by": "calling_code=216: 221 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SO",
+    "country": "Somalia",
+    "excluded_by": "calling_code=216: 252 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SR",
+    "country": "Suriname",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 597 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SS",
+    "country": "South Sudan",
+    "excluded_by": "calling_code=216: 211 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ST",
+    "country": "Sao Tome and Principe",
+    "excluded_by": "calling_code=216: 239 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SV",
+    "country": "El Salvador",
+    "excluded_by": "calling_code=216: 503 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SX",
+    "country": "Sint Maarten",
+    "excluded_by": "calling_code=216: 599 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SY",
+    "country": "Syria",
+    "excluded_by": "calling_code=216: 963 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "SZ",
+    "country": "Eswatini",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 268 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TC",
+    "country": "Turks and Caicos Islands",
+    "excluded_by": "calling_code=216: +1-649 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TD",
+    "country": "Chad",
+    "excluded_by": "calling_code=216: 235 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TG",
+    "country": "Togo",
+    "excluded_by": "calling_code=216: 228 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TH",
+    "country": "Thailand",
+    "excluded_by": "calling_code=216: 66 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TJ",
+    "country": "Tajikistan",
+    "excluded_by": "calling_code=216: 992 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TK",
+    "country": "Tokelau",
+    "excluded_by": "calling_code=216: 690 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TL",
+    "country": "Timor Leste",
+    "excluded_by": "calling_code=216: 670 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TM",
+    "country": "Turkmenistan",
+    "excluded_by": "calling_code=216: 993 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TO",
+    "country": "Tonga",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 676 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TR",
+    "country": "Turkey",
+    "excluded_by": "calling_code=216: 90 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TT",
+    "country": "Trinidad and Tobago",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-868 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TV",
+    "country": "Tuvalu",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 688 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TW",
+    "country": "Taiwan",
+    "excluded_by": "calling_code=216: 886 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "TZ",
+    "country": "Tanzania",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 255 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "UA",
+    "country": "Ukraine",
+    "excluded_by": "calling_code=216: 380 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "UG",
+    "country": "Uganda",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 256 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "UM",
+    "country": "United States Minor Outlying Islands",
+    "excluded_by": "calling_code=216: 1 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "US",
+    "country": "United States",
+    "excluded_by": "calling_code=216: 1 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "UY",
+    "country": "Uruguay",
+    "excluded_by": "calling_code=216: 598 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "UZ",
+    "country": "Uzbekistan",
+    "excluded_by": "calling_code=216: 998 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "VA",
+    "country": "Vatican",
+    "excluded_by": "calling_code=216: 379 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "VC",
+    "country": "Saint Vincent and the Grenadines",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: +1-784 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "VE",
+    "country": "Venezuela",
+    "excluded_by": "calling_code=216: 58 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "VG",
+    "country": "British Virgin Islands",
+    "excluded_by": "calling_code=216: +1-284 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "VI",
+    "country": "U.S. Virgin Islands",
+    "excluded_by": "calling_code=216: +1-340 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "VN",
+    "country": "Vietnam",
+    "excluded_by": "calling_code=216: 84 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "VU",
+    "country": "Vanuatu",
+    "excluded_by": "calling_code=216: 678 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "WF",
+    "country": "Wallis and Futuna",
+    "excluded_by": "calling_code=216: 681 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "WS",
+    "country": "Samoa",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 685 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "YE",
+    "country": "Yemen",
+    "excluded_by": "calling_code=216: 967 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "YT",
+    "country": "Mayotte",
+    "excluded_by": "calling_code=216: 262 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ZA",
+    "country": "South Africa",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 27 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ZM",
+    "country": "Zambia",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 260 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   },
+   {
+    "iso2": "ZW",
+    "country": "Zimbabwe",
+    "excluded_by": "drives=right: left (Wikipedia: Left- and right-hand traffic (CC BY-SA 4.0), 2026-11-15); calling_code=216: 263 (GeoNames countryInfo (CC BY 4.0), 2026-11-15)"
+   }
+  ],
+  "counts": {
+   "consistent": 7,
+   "excluded": 245,
+   "total": 252
+  },
+  "note": "'consistent' = no clue contradicted by a sourced, non-exception fact; 'unknown' and 'uncertain' never exclude. Check the facts and notes before trusting a short list."
+ }
+}

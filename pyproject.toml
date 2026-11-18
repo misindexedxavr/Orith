@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=77"]  # 77+: SPDX "license" string and "license-files"
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orith"
+version = "0.1.0"
+description = "Where was this photo taken? An offline, rule-based image geolocation and verification CLI: metadata, consistency checks, sourced country facts and one honest best guess."
+readme = "README.md"
+requires-python = ">=3.11"  # Pillow 13 (the tested version) needs Python 3.11+
+authors = [{ name = "Xavyr" }]
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["geolocation", "osint", "exif", "openstreetmap", "ctf"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Environment :: Console",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+# lower bound = the tested version, upper bound = the next major version
+dependencies = [
+    "pillow>=13.0.0,<14",           # image file triage (MIT-CMU / HPND); requires Python 3.11+
+    "openlocationcode>=1.0.1,<2",   # Plus Codes (Apache-2.0)
+    "tzdata>=2026.1",               # IANA time zones for zoneinfo; Windows has none built in (Apache-2.0); calendar-versioned data: newer is always better, so no upper bound
+    "phonenumbers>=9.0.43,<10",     # phone number parsing, port of libphonenumber (Apache-2.0)
+]
+
+[project.optional-dependencies]
+# HEIC/HEIF (iPhone) photos: pixels and metadata through libheif (BSD-3-Clause). Without it a HEIC file is
+# still accepted and its type reported, with a one-line hint to install this extra.
+heic = ["pillow-heif>=1.1,<2"]
+# astral and pyproj are independent oracles for tests only. pyproj 3.8.0 needs Python 3.12+;
+# on 3.11 its oracle test is skipped (pytest.importorskip).
+dev = [
+    "pytest>=9.1.1,<10",
+    "astral>=3.2,<4",
+    "pyproj>=3.8.0,<4; python_version >= '3.12'",
+    "ruff>=0.14,<1",
+]
+
+[project.scripts]
+orith = "orith.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["orith*"]
+
+[tool.setuptools.package-data]
+orith = ["data/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 130
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "UP", "I"]
+ignore = [
+    "E731",  # a named lambda is clearer than a def in a few table-driven spots
+    "E741",  # `l` is the conventional name for a ledger link throughout the code
+    "B905",  # zip() without strict= is intended where lengths are equal by construction
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]

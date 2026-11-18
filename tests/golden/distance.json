@@ -1,0 +1,22 @@
+{
+ "argv": [
+  "distance",
+  "36.8,10.18",
+  "36.9,10.3"
+ ],
+ "exit": 0,
+ "output": {
+  "from": [
+   36.8,
+   10.18
+  ],
+  "to": [
+   36.9,
+   10.3
+  ],
+  "distance_km": 15.416,
+  "bearing_from_to": 43.8,
+  "bearing_to_from": 223.87,
+  "model": "sphere R=6371.0088 km (about 0.5 %)"
+ }
+}

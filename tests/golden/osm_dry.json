@@ -1,0 +1,31 @@
+{
+ "argv": [
+  "osm",
+  "--feature",
+  "mosque",
+  "--name",
+  "Boumasour",
+  "--translit",
+  "--bbox",
+  "33.65,10.80,33.75,10.92",
+  "--dry-run"
+ ],
+ "exit": 0,
+ "output": {
+  "spec": {
+   "limit": 400,
+   "feature": "mosque",
+   "name": "Boumasour",
+   "translit": true,
+   "area": {
+    "bbox": [
+     33.65,
+     10.8,
+     33.75,
+     10.92
+    ]
+   }
+  },
+  "query": "[out:json][timeout:40];(nwr[\"amenity\"=\"place_of_worship\"][\"religion\"=\"muslim\"][~\"^(name|name:ar|name:fr|name:en|alt_name|old_name|official_name|int_name)$\"~\"((e|a)ll?[ -]?)?b+[aeiouwyàâäéèêëîïôöûüù' -]*m+[aeiouwyàâäéèêëîïôöûüù' -]*s+[aeiouwyàâäéèêëîïôöûüù' -]*r+\",i](33.650000,10.800000,33.750000,10.920000););out tags bb 400;"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "argv": [
+  "text",
+  "شارع الحبيب بورقيبة Avenue Habib Bourguiba +216 76 452 100"
+ ],
+ "exit": 0,
+ "output": {
+  "input": "شارع الحبيب بورقيبة Avenue Habib Bourguiba +216 76 452 100",
+  "scripts": {
+   "unicode_version": "18.0.0",
+   "source": "Unicode Character Database: Scripts.txt, ScriptExtensions.txt, PropertyValueAliases.txt",
+   "source_url": "https://www.unicode.org/Public/18.0.0/ucd/Scripts.txt",
+   "retrieved": "2026-11-15",
+   "normalisation": "NFC",
+   "counts": [
+    {
+     "script": "Latin",
+     "code": "Latn",
+     "chars": 20,
+     "share": 0.541,
+     "examples": "AvenuHab"
+    },
+    {
+     "script": "Arabic",
+     "code": "Arab",
+     "chars": 17,
+     "share": 0.459,
+     "examples": "شارعلحبي"
+    }
+   ],
+   "common_or_inherited": 12,
+   "shared_unresolved": [],
+   "unassigned": 0
+  },
+  "phones": {
+   "source": "phonenumbers 9.0.43 (port of Google libphonenumber metadata)",
+   "matcher": "PhoneNumberMatcher, leniency VALID (only numbers valid for their region are reported)",
+   "default_region": null,
+   "numbers": [
+    {
+     "raw": "+216 76 452 100",
+     "e164": "+21676452100",
+     "international": "+216 76 452 100",
+     "valid": true,
+     "possible": true,
+     "country_calling_code": 216,
+     "region_codes": [
+      "TN"
+     ],
+     "region_of_number": "TN",
+     "type": "FIXED_LINE",
+     "area_description": "Gafsa/Sidi Bouzid/Tozeur",
+     "time_zones": [
+      "Africa/Tunis"
+     ],
+     "carrier_at_allocation": null
+    }
+   ]
+  },
+  "domains": [],
+  "currencies": [],
+  "currency_symbols": [],
+  "facts_clues": [
+   "--calling-code 216",
+   "--script Arab",
+   "--script Latn"
+  ],
+  "notes": [
+   "Suggested facts clues are printed, never run. --script is a SOFT clue (Unicode CLDR): match or unknown only, it never excludes a country.",
+   "Script counting: Common/Inherited characters are not counted. A character shared by several scripts (ScriptExtensions.txt) is credited to the listed script with the most characters already in the text (this tie-break is the toolkit's rule, not Unicode's); if none of its scripts is present it is reported as shared_unresolved."
+  ]
+ }
+}

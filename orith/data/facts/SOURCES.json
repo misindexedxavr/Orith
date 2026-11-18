@@ -1,0 +1,73 @@
+{
+ "countryInfo.txt": {
+  "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+  "retrieved": "2026-11-15T19:04:16Z",
+  "bytes": 32112,
+  "sha256": "79f8f59ea01cbb40438bf1856dd6c2ff201f03f8fc72d0530b2646aaf603ef04"
+ },
+ "ne_50m_admin_0_countries.geojson": {
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+  "retrieved": "2026-11-15T19:04:16Z",
+  "bytes": 3083490,
+  "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb"
+ },
+ "natural_earth_VERSION.txt": {
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/VERSION",
+  "retrieved": "2026-11-15T19:04:16Z",
+  "bytes": 10,
+  "sha256": "fa43123c5e3a802287a821ea65b4daeeb20ed63cfdc82a67c3dfa4aad0173280",
+  "value": "5.2.0-pre"
+ },
+ "wiki_driving_side.json": {
+  "url": "https://en.wikipedia.org/w/index.php?title=Left-+and+right-hand+traffic&oldid=1385286602",
+  "title": "Left- and right-hand traffic",
+  "revid": 1385286602,
+  "retrieved": "2026-11-15T19:04:16Z",
+  "bytes": 797988,
+  "sha256": "da2517e9f306a79c62ffd57114076fc4666e4973f7c25e33bd727a77bb129170",
+  "licence": "CC BY-SA 4.0 (Wikipedia contributors)"
+ },
+ "wiki_mains_electricity.json": {
+  "url": "https://en.wikipedia.org/w/index.php?title=Mains+electricity+by+country&oldid=1380969207",
+  "title": "Mains electricity by country",
+  "revid": 1380969207,
+  "retrieved": "2026-11-15T19:04:16Z",
+  "bytes": 463297,
+  "sha256": "bf2854ceca80c34078588a55aaa2280a7b07c5abcaaa08d9b1760cd80e74dac9",
+  "licence": "CC BY-SA 4.0 (Wikipedia contributors)"
+ },
+ "cldr": {
+  "_version": "49.0.0",
+  "_licence": "Unicode License V3 (see LICENSE)",
+  "likelySubtags.json": {
+   "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/cldr-json/cldr-core/supplemental/likelySubtags.json",
+   "retrieved": "2026-11-16T11:25:31Z",
+   "bytes": 222356,
+   "sha256": "95447c75a7e54f7f9900f696ca96881aa2f6fab26d3c1f897f5f3c2a21e876fb"
+  },
+  "territoryInfo.json": {
+   "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/cldr-json/cldr-core/supplemental/territoryInfo.json",
+   "retrieved": "2026-11-16T11:25:31Z",
+   "bytes": 187760,
+   "sha256": "c8aa7654c87de234118f14ada0e1466eb09467bed4048da7eab3e7e63ffe335d"
+  },
+  "languageData.json": {
+   "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/cldr-json/cldr-core/supplemental/languageData.json",
+   "retrieved": "2026-11-16T11:25:31Z",
+   "bytes": 70281,
+   "sha256": "060cef1f51dacb72278b18be055325fbb0711a9871a1f0e0bda2c6c6bc874314"
+  },
+  "LICENSE": {
+   "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/49.0.0/LICENSE",
+   "retrieved": "2026-11-16T11:25:31Z",
+   "bytes": 2033,
+   "sha256": "220ba0e1c43b99530d2d5bdb892a99dca0989414f51ab695ecd90163eaa1ec3b"
+  }
+ },
+ "_licences": {
+  "Unicode CLDR": "Unicode License V3, Copyright Unicode, Inc.; notice in facts/LICENSE-CLDR.txt",
+  "GeoNames": "CC BY 4.0, credit GeoNames (geonames.org)",
+  "Wikipedia": "CC BY-SA 4.0, credit Wikipedia contributors; derived table shared alike",
+  "Natural Earth": "public domain (naturalearthdata.com)"
+ }
+}

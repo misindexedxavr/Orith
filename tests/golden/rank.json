@@ -1,0 +1,83 @@
+{
+ "argv": [
+  "rank",
+  "--case",
+  "g1",
+  "--case-dir",
+  "CASES"
+ ],
+ "exit": 0,
+ "output": {
+  "verdict": "CANDIDATE",
+  "top": "h1",
+  "unmet": [
+   "A: 0 independent clue(s) agree within 250 m of h1; 3 needed (each anchored to recorded map evidence)",
+   "B: none of the agreeing clues is fixed geometry"
+  ],
+  "agree_m": 250.0,
+  "ranking": [
+   {
+    "id": "h1",
+    "label": "Tozeur",
+    "lat": 33.9239001,
+    "lon": 8.1370639,
+    "source": "evidence",
+    "status": "alive",
+    "eliminated_by": [],
+    "relative_score": 0.384,
+    "map_anchored_clues": 1,
+    "supports": [
+     "c1"
+    ],
+    "contradicts": [],
+    "agreeing_clues": [],
+    "independent_agreeing": 0,
+    "geometry_agreeing": []
+   },
+   {
+    "id": "h2",
+    "label": "Nefta",
+    "lat": 33.873,
+    "lon": 7.877,
+    "source": "memory",
+    "status": "alive",
+    "eliminated_by": [],
+    "relative_score": 0,
+    "map_anchored_clues": 0,
+    "supports": [],
+    "contradicts": [],
+    "agreeing_clues": [],
+    "independent_agreeing": 0,
+    "geometry_agreeing": []
+   },
+   {
+    "id": "h3",
+    "label": "Sfax",
+    "lat": 34.74,
+    "lon": 10.76,
+    "source": "memory",
+    "status": "alive",
+    "eliminated_by": [],
+    "relative_score": -0.384,
+    "map_anchored_clues": 0,
+    "supports": [],
+    "contradicts": [
+     "c1"
+    ],
+    "agreeing_clues": [],
+    "independent_agreeing": 0,
+    "geometry_agreeing": []
+   }
+  ],
+  "warnings": [
+   "c1: evidence e1 is only precise to 3000 m: not counted as agreeing"
+  ],
+  "counts": {
+   "clues": 1,
+   "hypotheses": 3,
+   "alive": 3,
+   "evidence": 1
+  },
+  "score_note": "relative_score = sum of the weights (u*p*r/125) of supporting clues minus those of contradicting SOFT clues. It only orders the hypotheses of this case: it is not a probability or a confidence. map_anchored_clues = supporting clues that cite recorded map evidence (eN); only those can count toward IDENTIFIED (agreeing_clues: anchored AND within agree_m)."
+ }
+}

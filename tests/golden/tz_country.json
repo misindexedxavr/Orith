@@ -1,0 +1,26 @@
+{
+ "argv": [
+  "tz",
+  "--country",
+  "TN",
+  "--time",
+  "2026-01-15T12:00:00Z"
+ ],
+ "exit": 0,
+ "output": {
+  "country": "TN",
+  "time_utc": "2026-01-15T12:00:00+00:00",
+  "zones": [
+   {
+    "zone": "Africa/Tunis",
+    "comment": "",
+    "utc_offset": "+0100",
+    "dst": false,
+    "local": "2026-01-15T13:00:00+01:00",
+    "reference_point_iso6709": "+3648+01011"
+   }
+  ],
+  "source": "IANA tz database zone.tab (tzdata package, IANA version 2026a)",
+  "note": "All zones listed for the country; pick from the scene. The toolkit does not guess a zone from coordinates."
+ }
+}

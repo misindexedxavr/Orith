@@ -1,0 +1,18 @@
+source,name,link,value,reason
+cldr_script,AC,,,CLDR territory not in GeoNames countryInfo
+cldr_script,AQ/und,,,language has no primary script in languageData
+cldr_script,BZ/bzj,,,language has no primary script in languageData
+cldr_script,CP,,,CLDR territory not in GeoNames countryInfo
+cldr_script,CQ,,,CLDR territory not in GeoNames countryInfo
+cldr_script,DG,,,CLDR territory not in GeoNames countryInfo
+cldr_script,EA,,,CLDR territory not in GeoNames countryInfo
+cldr_script,EG/cop,,,language has no primary script in languageData
+cldr_script,GT/cak,,,language has no primary script in languageData
+cldr_script,HM/und,,,language has no primary script in languageData
+cldr_script,IC,,,CLDR territory not in GeoNames countryInfo
+cldr_script,LR/lir,,,language has no primary script in languageData
+cldr_script,LR/mev,,,language has no primary script in languageData
+cldr_script,TA,,,CLDR territory not in GeoNames countryInfo
+cldr_script,ZM/toi,,,language has no primary script in languageData
+cldr_script,ZZ,,,CLDR territory not in GeoNames countryInfo
+mains,"Bonaire, Sint Eustatius and Saba",Bonaire,"A, B",

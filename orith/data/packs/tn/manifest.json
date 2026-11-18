@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "code": "TN",
+  "name": "Tunisia",
+  "country": {"file": "admin/tunisia-country-full.geojson"},
+  "levels": [
+    {"level": 1, "label": "governorate", "file": "admin/tunisia-governorates-full.geojson",
+     "id_prop": "id", "name_prop": "name_en", "parent_prop": null},
+    {"level": 2, "label": "delegation", "file": "admin/tunisia-delegations-full.geojson",
+     "id_prop": "id", "name_prop": "name_en", "parent_prop": "governorate"}
+  ],
+  "gazetteer": [
+    {"file": "gazetteer/governorates.csv", "kind": "governorate", "lat": "label_lat", "lon": "label_lon",
+     "id": "id", "admin1": "id", "area_km2": "area_km2", "population": "population_2024",
+     "names": ["name_en", "name_fr", "name_translit", "name_ar", "capital_en", "capital_fr"]},
+    {"file": "gazetteer/delegations.csv", "kind": "delegation", "lat": "label_lat", "lon": "label_lon",
+     "id": "id", "admin1": "governorate", "area_km2": "area_km2", "population": "population_2024",
+     "names": ["name_en", "name_fr", "name_translit", "name_fr_ins", "name_ar"]},
+    {"file": "gazetteer/municipalities.csv", "kind": "municipality", "lat": "label_lat", "lon": "label_lon",
+     "id": "id", "admin1": "governorate", "area_km2": "area_km2",
+     "names": ["name_en", "name_fr", "name_translit", "name_ar"]},
+    {"file": "gazetteer/sectors.csv", "kind": "sector", "lat": "label_lat", "lon": "label_lon",
+     "id": "id", "admin1": "governorate", "area_km2": "area_km2",
+     "names": ["name_en", "name_fr", "name_translit", "name_ar"]},
+    {"file": "gazetteer/cities.csv", "kind": "populated place", "lat": "lat", "lon": "lon",
+     "id": "id", "admin1": "governorate", "point_precision_m": 3000,
+     "names": ["name_en", "name_fr", "name_translit", "name_ar"]}
+  ],
+  "sources": [
+    {"name": "Map Tunisia", "url": "https://github.com/Alaa-Taieb/map-tunisia",
+     "files": "dist/geojson/tunisia-{country,governorates,delegations}-full.geojson; dist/data/{country,governorates,delegations,municipalities,sectors,cities}.csv",
+     "retrieved": "2026-11-14", "upstream_version": "1.4.0", "osm_date": "2026-10-16",
+     "licence": "ODbL-1.0",
+     "credit": "Contains information from OpenStreetMap (© OpenStreetMap contributors, ODbL). Map Tunisia by Alaa Taieb."}
+  ]
+}

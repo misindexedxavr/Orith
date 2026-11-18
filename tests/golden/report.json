@@ -1,0 +1,19 @@
+{
+ "argv": [
+  "report",
+  "--case",
+  "g1",
+  "--case-dir",
+  "CASES"
+ ],
+ "exit": 0,
+ "output": {
+  "verdict": "CANDIDATE",
+  "top": "h1",
+  "unmet": [
+   "A: 0 independent clue(s) agree within 250 m of h1; 3 needed (each anchored to recorded map evidence)",
+   "B: none of the agreeing clues is fixed geometry"
+  ],
+  "text": "CASE g1   image: demo.jpg\nVERDICT: CANDIDATE\nBest hypothesis: h1 Tozeur  (33.92390, 8.13706)  coordinates from evidence\nThis is a candidate, not an identification. Unmet conditions:\n  - A: 0 independent clue(s) agree within 250 m of h1; 3 needed (each anchored to recorded map evidence)\n  - B: none of the agreeing clues is fixed geometry\nRanking:\n  h1   relative score +0.384 (map-anchored clues 1)  alive                  agreeing 0 (geometry 0)  contradictions 0  Tozeur\n  h2   relative score +0.000 (map-anchored clues 0)  alive                  agreeing 0 (geometry 0)  contradictions 0  Nefta\n  h3   relative score -0.384 (map-anchored clues 0)  alive                  agreeing 0 (geometry 0)  contradictions 1  Sfax\nRelative score orders the hypotheses of this case only; it is not a confidence.\n  h1: clue c1 names 'Tozeur' = evidence e1 at 0 m: name matched to map object (not geometry; does not count toward IDENTIFIED)\nWarnings:\n  - c1: evidence e1 is only precise to 3000 m: not counted as agreeing"
+ }
+}
